@@ -1,19 +1,3 @@
-*
-    CSCI 272
-    Lesson 1 — Functions Basics
-
-    Instructor: Avijit Roy
-    Teaching page: https://avijitroy.com/teaching/
-
-    A function is a reusable block of code designed
-    to perform a specific task.
-
-    This example demonstrates:
-    - Function definition
-    - Parameters
-    - Arguments
-    - Return values
-*/
 
 #include <iostream>
 using namespace std;
@@ -29,20 +13,17 @@ double divide(double a, double b)
 
     return a / b;
 }
-// after doing this exercises now i fully understand how to use function.
+
 int main()
 {
-
     double num1 = 10;
     double num2 = 5;
 
     // 10 and 5 are arguments.
     // a and b inside divide() are parameters.
     double result = divide(num1, num2);
-        cout << divide(5, 4) << endl;
-        cout << divide(101, 10) << endl;
-        cout << divide(7, 2) << endl;
-     // cout << "Result: " << result << endl;
+
+    cout << "Result: " << result << endl;
 
     return 0;
 }
@@ -58,7 +39,8 @@ int main()
     to different values.
 
     Predict the result before running the program.
-
+    
+    I predict the result I will be 2 because you are dividinig 10 by 5
 
     TRY THIS #2
 
@@ -68,6 +50,9 @@ int main()
     Why does the function check:
 
         if (b == 0)
+    
+    This function check if the result of is zero 
+    becacue in C++ if a number divides to zero the result it will cause Undefined behavior.
 
 
     TRY THIS #3
@@ -75,8 +60,11 @@ int main()
     Call the function multiple times:
 
         cout << divide(20, 4) << endl;
-        cout << sdivide(100, 10) << endl;
+        cout << divide(100, 10) << endl;
         cout << divide(7, 2) << endl;
 
     Notice how the same function can be reused.
+    
+    After trying this example  I was able to completely understand 
+    how function can be reused.
 */
