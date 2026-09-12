@@ -4,7 +4,7 @@ This folder contains my Week 1 C++ practice work.
 
 ## What I learned
 
-A repository is a place where people can share their work with others and collaborate to make better projects. For example, someone might post their personal project that they made. Also, someone might post a exploits that found so that they can be address more promptly.  
+A repository is a place where people can share their work with others and collaborate to make better projects. For example, someone might post their personal project that they made. Also, someone might post a exploits that they found so that it can be address more promptly.  
 
 A README file assist with keep your repository be more organized and easier to read. 
 
